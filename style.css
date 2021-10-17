@@ -9,3 +9,41 @@
     margin: 8px 0px 8px 0px;
     color: white;
 }
+#mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#leftContent{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 19px 0px 0px;
+}
+#content{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightContent{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 19px;
+    
+}
